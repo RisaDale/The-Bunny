@@ -28,10 +28,10 @@ public class PinchZoom extends View {
 
 
 
-    public PinchZoom(Context context) {
-        this(context,null,0);
+    public PinchZoom(Context context, Object o, int i) {
+        this(context, null, 0);
 
-        mImage = act.GetResources().getDrawable(context.getResources());
+        mImage = o.GetResources().getDrawable(context.getResources());
 
 
 

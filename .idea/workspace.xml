@@ -154,10 +154,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocationActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LocationActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/LocationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="1" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="930">
+            <state line="56" column="1" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.6137339" vertical-offset="577" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -197,10 +197,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PinchZoom.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PinchZoom.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/PinchZoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="17" selection-start="689" selection-end="689" vertical-scroll-proportion="0.3304721" vertical-offset="418" max-vertical-offset="765">
+            <state line="31" column="8" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="765">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -250,8 +250,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="248" />
-    <option name="y" value="768" />
+    <option name="x" value="90" />
+    <option name="y" value="42" />
     <option name="width" value="1099" />
     <option name="height" value="600" />
   </component>
@@ -581,7 +581,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="248" y="768" width="1099" height="600" extended-state="0" />
+    <frame x="90" y="42" width="1099" height="600" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,13 +741,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/LocationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="1" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/AndroidGridLayoutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="34" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
@@ -792,10 +785,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/PinchZoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="17" selection-start="689" selection-end="689" vertical-scroll-proportion="0.3304721" vertical-offset="418" max-vertical-offset="765">
+        <state line="31" column="8" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="765">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/LocationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="1" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.6137339" vertical-offset="577" max-vertical-offset="810">
+          <folding />
         </state>
       </provider>
     </entry>
