@@ -1,52 +1,39 @@
 package com.jolielaide.Bun;
 
 import android.app.Activity;
-import android.os.Bundle;
-import android.view.GestureDetector.SimpleOnGestureListener;
-import android.view.GestureDetector;
+import android.util.Log;
 import android.view.MotionEvent;
-import android.view.ScaleGestureDetector.SimpleOnScaleGestureListener;
-
 /**
  * Created by risadale on 7/21/13.
  */
 class MainActivity extends Activity  {
 
-    private GestureDetector mGestureDetector;
+    public boolean onTouchEvent(MotionEvent event){
 
+         String DEBUG_TAG= null;
 
+        int action = MotionEventCompat.getActionMasked(event);
 
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.full_image);
-
-
-        //bind The Gesture Detector to Gesture Listener
-
-        mGestureDetector = new GestureDetector(this,new SimpleOnGestureListener());
-
-    }
-           @Override
-
-            public boolean onTouchEvent(MotionEvent event){
-
-           //method onTouchEvent of GestureDetector Class analyzes the given motion event
-           //if applicable triggers are supplied the callback methods
-           //returns true if the GestureDetetctor consumed the event
-
-               boolean eventConsumed = mGestureDetector.onTouchEvent(event);
-
-               if (eventConsumed){
-
-                System.out.toString();
+        switch(action) {
+            case (MotionEvent.ACTION_DOWN) :
+                Log.d(DEBUG_TAG, "Action was DOWN");
                 return true;
-
-               }
-                else
-                   return false;
-
+            case (MotionEvent.ACTION_MOVE) :
+                Log.d(DEBUG_TAG,"Action was MOVE");
+                return true;
+            case (MotionEvent.ACTION_UP) :
+                Log.d(DEBUG_TAG,"Action was UP");
+                return true;
+            case (MotionEvent.ACTION_CANCEL) :
+                Log.d(DEBUG_TAG,"Action was CANCEL");
+                return true;
+            case (MotionEvent.ACTION_OUTSIDE) :
+                Log.d(DEBUG_TAG,"Movement occurred outside bounds " +
+                        "of current screen element");
+                return true;
+            default :
+                return super.onTouchEvent(event);
+        }
+    }
 }
-
-}
-
 

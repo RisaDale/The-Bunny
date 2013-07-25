@@ -1,6 +1,5 @@
 package com.jolielaide.Bun;
 
-import android.app.Activity;
 import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
@@ -21,10 +20,6 @@ public class LocationActivity extends MapActivity implements LocationListener {
 
 
 
-
-
-
-
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mapview);
@@ -32,11 +27,22 @@ public class LocationActivity extends MapActivity implements LocationListener {
 
     @Override
     protected boolean isRouteDisplayed() {
-        return false;
+
+
+
+
+        {
+            return true
+                    ;
+        }
     }
 
     @Override
     public void onLocationChanged(Location location) {
+
+
+
+
 
     }
 
