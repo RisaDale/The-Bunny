@@ -41,6 +41,26 @@
       </config>
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout-land/gridlay.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <night>night</night>
+          <theme>@android:style/Theme.Black.NoTitleBar.Fullscreen</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/full_image.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/gridlay.xml">
+        <config>
+          <device>Nexus 7</device>
+          <theme>@android:style/Theme.Black.NoTitleBar.Fullscreen</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/mapview.xml">
         <config>
           <device>AVD_for_Toto</device>
@@ -60,6 +80,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="USE_COMPILE_SERVER" value="false" />
     <option name="COMPILER_PROCESS_HEAP_SIZE" value="1700" />
@@ -71,7 +96,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -108,6 +132,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -119,12 +144,12 @@
     <leaf>
       <file leaf-file-name="full_image.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/full_image.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
+          <provider editor-type-id="text-editor">
+            <state line="27" column="15" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
@@ -132,7 +157,16 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="42" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+            <state line="13" column="7" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="930">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TouchAndZoom.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/TouchAndZoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="7" selection-start="439" selection-end="439" vertical-scroll-proportion="0.24881516" vertical-offset="0" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -147,70 +181,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/ImageAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1710">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="675">
+            <state line="20" column="28" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#374#596#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MotionEventCompat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MotionEventCompat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="12" selection-start="2142" selection-end="2151" vertical-scroll-proportion="0.0" vertical-offset="948" max-vertical-offset="3660">
+      <file leaf-file-name="gridlay.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/gridlay.xml">
+          <provider editor-type-id="text-editor">
+            <state line="7" column="33" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MotionEventCompatEclair.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MotionEventCompatEclair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="435">
-              <folding />
-            </state>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnTouchEvent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/OnTouchEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="195">
+      <file leaf-file-name="mapview.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZoomView.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/ZoomView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="239" column="0" selection-start="4650" selection-end="4650" vertical-scroll-proportion="1.6451613" vertical-offset="3381" max-vertical-offset="4605">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnDraw.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/OnDraw.java">
+      <file leaf-file-name="gridlay.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-land/gridlay.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="195">
+            <state line="5" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="315">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -233,30 +248,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/Readme" />
-        <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/AndroidViewFlipper.java" />
-        <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/AndroidViewFlipperActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/gridlay.xml" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/GestureActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/PinchZoom.java" />
-        <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/Touch.java" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/LocationActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/GestureListener.java" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/OnTouchListener.java" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/ZoomView.java" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/AppMotionCompat.java" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/MotionEventCompatEclair.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/MotionEventCompat.java" />
+        <option value="$PROJECT_DIR$/res/layout/gridlay.xml" />
+        <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/Touch.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/gridlay.xml" />
+        <option value="$PROJECT_DIR$/res/layout/full_image.xml" />
         <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/jolielaide/Bun/TouchAndZoom.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="159" />
-    <option name="y" value="86" />
-    <option name="width" value="977" />
-    <option name="height" value="600" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -269,7 +282,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -284,39 +297,13 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Bun" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 4.2.2 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 4.2.2 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google-play-services.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -393,38 +380,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemId" value="drawable-hdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="212" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/temboo-android-sdk-1-1" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Toto" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="775" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/custom-view" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.STATE" value="ToolWindow" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Toto" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.STATE" value="ToolWindow" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
@@ -584,32 +575,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="159" y="86" width="977" height="600" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.67014927" order="3" side_tool="false" content_ui="tabs" x="1196" y="53" width="128" height="746" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="427" y="125" width="451" height="456" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.65625" sideWeight="0.60257787" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.50151515" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40616623" sideWeight="0.34285715" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14375" sideWeight="0.49946293" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2293373" sideWeight="0.3432836" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.49848485" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.275" sideWeight="0.8037135" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5970149" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24932976" sideWeight="0.5970149" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3544576" sideWeight="0.34375" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65625" sideWeight="0.39742213" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22954546" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.03125" sideWeight="0.39742213" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5125" sideWeight="0.5371353" order="5" side_tool="false" content_ui="tabs" />
@@ -676,13 +667,43 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="675">
+          <folding>
+            <element signature="e#374#596#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/gridlay.xml">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+        <state line="7" column="33" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/gridlay.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -698,38 +719,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/Readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="52" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="208">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/AndroidGridLayoutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="34" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/gridlay.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="275" selection-end="275" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/full_image.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/ImageAdapter.java">
@@ -746,56 +740,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/OnTouchEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/OnDraw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MotionEventCompatEclair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+        <state line="13" column="7" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MotionEventCompat.java">
+    <entry file="file://$PROJECT_DIR$/res/layout-land/gridlay.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="12" selection-start="2142" selection-end="2151" vertical-scroll-proportion="0.0" vertical-offset="948" max-vertical-offset="3660">
+        <state line="5" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="315">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="387">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/gridlay.xml">
+      <provider editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/full_image.xml">
+      <provider editor-type-id="text-editor">
+        <state line="27" column="15" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="675">
+        <state line="20" column="28" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#374#596#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/ZoomView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/TouchAndZoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="0" selection-start="4650" selection-end="4650" vertical-scroll-proportion="1.6451613" vertical-offset="3381" max-vertical-offset="4605">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="17" column="7" selection-start="439" selection-end="439" vertical-scroll-proportion="0.24881516" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
         </state>
       </provider>
     </entry>

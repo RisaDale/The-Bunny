@@ -3,12 +3,14 @@
 <GridView xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           android:id="@+id/gridview"
-          android:layout_width="match_parent"
+
+          android:layout_width="fill_parent"
           android:layout_height="fill_parent"
           android:columnWidth="20sp"
           android:numColumns="3"
           android:verticalSpacing="10dp"
           android:horizontalSpacing="10dp"
           android:stretchMode="columnWidth"
-          android:gravity="center"
-          tools:context=".AndroidGridLayoutActivity"/>
+          android:gravity="fill_horizontal|fill_vertical"
+          tools:context=".AndroidGridLayoutActivity"
+          android:longClickable="true"/>

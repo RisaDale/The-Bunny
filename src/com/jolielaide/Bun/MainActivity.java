@@ -1,39 +1,30 @@
 package com.jolielaide.Bun;
 
 import android.app.Activity;
-import android.util.Log;
 import android.view.MotionEvent;
+import android.view.View;
+import android.widget.Button;
+
 /**
  * Created by risadale on 7/21/13.
  */
 class MainActivity extends Activity  {
 
     public boolean onTouchEvent(MotionEvent event){
+       final Button button = new Button(R.id.mapButton);
+        button.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent event) {
 
-         String DEBUG_TAG= null;
+                setContentView(R.layout.mapview);
 
-        int action = MotionEventCompat.getActionMasked(event);
+                return true;
+            }
+        });
 
-        switch(action) {
-            case (MotionEvent.ACTION_DOWN) :
-                Log.d(DEBUG_TAG, "Action was DOWN");
-                return true;
-            case (MotionEvent.ACTION_MOVE) :
-                Log.d(DEBUG_TAG,"Action was MOVE");
-                return true;
-            case (MotionEvent.ACTION_UP) :
-                Log.d(DEBUG_TAG,"Action was UP");
-                return true;
-            case (MotionEvent.ACTION_CANCEL) :
-                Log.d(DEBUG_TAG,"Action was CANCEL");
-                return true;
-            case (MotionEvent.ACTION_OUTSIDE) :
-                Log.d(DEBUG_TAG,"Movement occurred outside bounds " +
-                        "of current screen element");
-                return true;
-            default :
-                return super.onTouchEvent(event);
-        }
+
     }
+
+
 }
 
