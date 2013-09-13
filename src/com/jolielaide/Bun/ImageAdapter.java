@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.ImageView.ScaleType;
 
 /**
  * User: risadale
@@ -97,7 +96,7 @@ public class ImageAdapter  extends BaseAdapter{
         ImageView imageView = new ImageView(mContext);
         imageView.setImageResource(images[position]);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(70, 70));
+        imageView.setLayoutParams(new GridView.LayoutParams(170, 170));
         return imageView;
     }
 

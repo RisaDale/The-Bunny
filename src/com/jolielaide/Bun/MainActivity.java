@@ -1,30 +1,46 @@
 package com.jolielaide.Bun;
 
 import android.app.Activity;
+import android.view.GestureDetector;
+import android.view.GestureDetector.OnGestureListener;
 import android.view.MotionEvent;
-import android.view.View;
-import android.widget.Button;
 
 /**
  * Created by risadale on 7/21/13.
  */
-class MainActivity extends Activity  {
+public class MainActivity extends Activity implements GestureDetector.OnGestureListener {
 
-    public boolean onTouchEvent(MotionEvent event){
-       final Button button = new Button(R.id.mapButton);
-        button.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent event) {
 
-                setContentView(R.layout.mapview);
+    public OnGestureListener gestureDetector;
 
-                return true;
-            }
-        });
 
+    @Override
+    public boolean onDown(MotionEvent event) {
+        return false;
+    }
+
+    @Override
+    public void onShowPress(MotionEvent event) {
 
     }
 
+    @Override
+    public boolean onSingleTapUp(MotionEvent event) {
+        return false;
+    }
 
+    @Override
+    public boolean onScroll(MotionEvent event, MotionEvent event2, float v, float v2) {
+        return false;
+    }
+
+    @Override
+    public void onLongPress(MotionEvent event) {
+
+    }
+
+    @Override
+    public boolean onFling(MotionEvent event, MotionEvent event2, float v, float v2) {
+        return false;
+    }
 }
-

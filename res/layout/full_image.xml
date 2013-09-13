@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              tools:context=".TouchAndZoom">
+    <com.jolielaide.Bun.TouchImageView
 
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/wholeimage"
-            android:contentDescription="BUNNIES"/>
+        android:id="@+id/wholeimageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        />
 
-    <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/mapButton"
-            android:layout_gravity="center"
-            android:src="@drawable/rszeearth"
-            android:maxHeight="100sp"
-            android:maxWidth="100sp"
-            android:minHeight="10dp"
-            android:minWidth="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where Am I?"
+        android:id="@+id/mapbutton"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:ellipsize="marquee"
+        android:enabled="true" />
 
 
-</LinearLayout>
+</RelativeLayout>

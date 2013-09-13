@@ -1,0 +1,63 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww22780\viewh13000\viewkind0
+\deftab720
+\pard\pardeftab720\qj
+
+\f0\fs28 \cf0 import android.app.Activity;\
+import android.os.Bundle;\
+import android.view.MotionEvent;\
+import android.view.ScaleGestureDetector;\
+import android.view.ScaleGestureDetector.SimpleOnScaleGestureListener;\
+import android.view.View;\
+import android.widget.TextView;\
+\
+public class AndroidScaleGestureDetectorActivity extends Activity \{\
+\
+TextView scaleGesture;\
+ScaleGestureDetector scaleGestureDetector;\
+\
+   /** Called when the activity is first created. */\
+   @Override\
+   public void onCreate(Bundle savedInstanceState) \{\
+       super.onCreate(savedInstanceState);\
+       setContentView(R.layout.main);\
+       scaleGesture = (TextView)findViewById(R.id.ScaleGesture);\
+      \
+       scaleGestureDetector = new ScaleGestureDetector(this, new simpleOnScaleGestureListener());\
+   \}\
+  \
+@Override\
+public boolean onTouchEvent(MotionEvent event) \{\
+ // TODO Auto-generated method stub\
+ scaleGestureDetector.onTouchEvent(event);\
+ return true;\
+\}\
+\
+public class simpleOnScaleGestureListener extends\
+  SimpleOnScaleGestureListener \{\
+\
+ @Override\
+ public boolean onScale(ScaleGestureDetector detector) \{\
+  // TODO Auto-generated method stub\
+  scaleGesture.setText(String.valueOf(detector.getScaleFactor()));\
+  return true;\
+ \}\
+\
+ @Override\
+ public boolean onScaleBegin(ScaleGestureDetector detector) \{\
+  // TODO Auto-generated method stub\
+  scaleGesture.setVisibility(View.VISIBLE);\
+  return true;\
+ \}\
+\
+ @Override\
+ public void onScaleEnd(ScaleGestureDetector detector) \{\
+  // TODO Auto-generated method stub\
+  scaleGesture.setVisibility(View.INVISIBLE);\
+ \}\
+\
+\}\
+\}\
+}
