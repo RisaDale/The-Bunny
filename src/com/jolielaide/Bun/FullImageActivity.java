@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class FullImageActivity extends Activity implements View.OnTouchListener {
+public class FullImageActivity extends Activity  {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class FullImageActivity extends Activity implements View.OnTouchListener 
 
 
         Button button =(Button)findViewById(R.id.mapbutton);
-        button.setOnTouchListener(this);
+        button.setOnTouchListener((View.OnTouchListener) this);
 
 
 
@@ -44,9 +44,14 @@ public class FullImageActivity extends Activity implements View.OnTouchListener 
 
     }
 
-    @Override
-    public boolean onTouch(View view, MotionEvent event) {
 
-        return true;
+
+    @Override
+    public void onClick(View view) {
+     Intent d = (new Intent(getApplicationContext(),MapActivity.class));
+     startActivity(d);
+
+
+
     }
 }

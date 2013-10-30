@@ -36,6 +36,8 @@ public class MapActivity extends Activity {
      * */
     private void initilizeMap() {
         if (googleMap == null) {
+            assert ((MapFragment) getFragmentManager().findFragmentById(
+                    R.id.map)) != null;
             googleMap = ((MapFragment) getFragmentManager().findFragmentById(
                     R.id.map)).getMap();
 

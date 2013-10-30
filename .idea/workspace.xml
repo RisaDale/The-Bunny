@@ -86,7 +86,6 @@
     <splitter proportion="0.5" />
   </component>
   <component name="CompilerWorkspaceConfiguration">
-    <option name="USE_COMPILE_SERVER" value="false" />
     <option name="COMPILER_PROCESS_HEAP_SIZE" value="1700" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -145,7 +144,7 @@
       <file leaf-file-name="FullImageActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/FullImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="19" selection-start="1323" selection-end="1323" vertical-scroll-proportion="1.7123893" vertical-offset="348" max-vertical-offset="855">
+            <state line="48" column="4" selection-start="1228" selection-end="1228" vertical-scroll-proportion="6.212121" vertical-offset="105" max-vertical-offset="930">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,12 +154,12 @@
       </file>
       <file leaf-file-name="full_image.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/full_image.xml">
-          <provider editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="32" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
@@ -168,7 +167,7 @@
       <file leaf-file-name="mapview.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="496" selection-end="496" vertical-scroll-proportion="-7.7777777" vertical-offset="0" max-vertical-offset="300">
+            <state line="14" column="17" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -180,10 +179,8 @@
       <file leaf-file-name="MapActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MapActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="945">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="3" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="975">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -200,7 +197,7 @@
       <file leaf-file-name="TouchImageView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/TouchImageView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="14" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="3390">
+            <state line="57" column="14" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="3600">
               <folding />
             </state>
           </provider>
@@ -209,7 +206,7 @@
       <file leaf-file-name="LocationActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/LocationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+            <state line="15" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -254,9 +251,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
-    <option name="y" value="768" />
-    <option name="width" value="1290" />
+    <option name="x" value="60" />
+    <option name="y" value="61" />
+    <option name="width" value="1267" />
     <option name="height" value="600" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -285,6 +282,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,24 +412,22 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GesturesDemos/GesturesDemo" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GesturesDemos/GesturesDemo" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Toto" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -442,8 +439,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.STATE" value="ToolWindow" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.STATE" value="ToolWindow" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
@@ -461,6 +458,7 @@
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -469,6 +467,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -477,6 +476,33 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -532,6 +558,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -540,6 +567,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Bun" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -548,6 +576,7 @@
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -556,6 +585,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
@@ -563,12 +593,6 @@
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Bun" />
     </list>
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
     </configuration>
@@ -604,36 +628,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="768" width="1290" height="600" extended-state="6" />
+    <frame x="60" y="61" width="1267" height="600" extended-state="1" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717043" sideWeight="0.29583332" order="3" side_tool="false" content_ui="tabs" x="1196" y="53" width="128" height="746" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717043" sideWeight="0.47291666" order="3" side_tool="false" content_ui="tabs" x="1196" y="53" width="128" height="746" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4169215" sideWeight="0.9485149" order="2" side_tool="false" content_ui="tabs" x="501" y="825" width="451" height="456" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47083333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47083333" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.73541665" sideWeight="0.5045045" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40616623" sideWeight="0.34285715" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34588236" sideWeight="0.2140575" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53035146" sideWeight="0.4959807" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.072916664" sideWeight="0.8030547" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24812031" sideWeight="0.9458333" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17363344" sideWeight="0.52916664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27027026" sideWeight="0.26458332" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6916933" sideWeight="0.11012862" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6475248" sideWeight="0.53536975" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16458334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.73541665" sideWeight="0.4946765" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6458333" sideWeight="0.53536975" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -651,9 +675,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1185">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -725,29 +747,17 @@
     <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/MapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="3" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="945">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/mapview.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="496" selection-end="496" vertical-scroll-proportion="-7.7777777" vertical-offset="0" max-vertical-offset="300">
+        <state line="14" column="17" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/full_image.xml">
-      <provider editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -765,9 +775,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/full_image.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jolielaide/Bun/FullImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="19" selection-start="1323" selection-end="1323" vertical-scroll-proportion="1.7123893" vertical-offset="348" max-vertical-offset="855">
+        <state line="48" column="4" selection-start="1228" selection-end="1228" vertical-scroll-proportion="6.212121" vertical-offset="105" max-vertical-offset="930">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
