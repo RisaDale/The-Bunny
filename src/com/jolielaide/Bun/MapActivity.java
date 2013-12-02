@@ -1,6 +1,8 @@
 package com.jolielaide.Bun;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -19,11 +21,11 @@ public class MapActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mapview);
+        setContentView(R.layout.fullimage);
 
         try {
             // Loading map
-            initilizeMap();
+            initializeMap();
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -34,7 +36,8 @@ public class MapActivity extends Activity {
     /**
      * function to load map. If map is not created it will create it for you
      * */
-    private void initilizeMap() {
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    private void initializeMap() {
         if (googleMap == null) {
             assert ((MapFragment) getFragmentManager().findFragmentById(
                     R.id.map)) != null;
@@ -53,7 +56,7 @@ public class MapActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        initilizeMap();
+        initializeMap();
     }
 
 }

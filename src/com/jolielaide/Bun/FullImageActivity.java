@@ -4,17 +4,16 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class FullImageActivity extends Activity  {
+public abstract class FullImageActivity extends Activity implements View.OnTouchListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.full_image);
+        setContentView(R.layout.fullimage);
 
         // get intent data
         Intent i = getIntent();
@@ -25,28 +24,18 @@ public class FullImageActivity extends Activity  {
         position = i.getExtras().getInt("id");
         ImageAdapter imageAdapter = new ImageAdapter(this);
 
-        ImageView imageView = (ImageView) findViewById(R.id.wholeimageview);
+        ImageView imageView = (ImageView) findViewById(R.id.wholeimageView);
         imageView.setImageResource(imageAdapter.images[position]);
         final Resources imageViewResources = imageView.getResources();
-
-
         Button button =(Button)findViewById(R.id.mapbutton);
         button.setOnTouchListener((View.OnTouchListener) this);
-
-
-
-
-            // Intent c = (new Intent(getApplicationContext(),SoundActivity.class));
-
-            // startActivity(c);
-
 
 
     }
 
 
 
-    @Override
+    //@Override
     public void onClick(View view) {
      Intent d = (new Intent(getApplicationContext(),MapActivity.class));
      startActivity(d);
